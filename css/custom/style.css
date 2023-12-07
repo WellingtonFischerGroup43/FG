@@ -2713,5 +2713,6 @@ video {
 
   .google-map {
     height: 250px; /* Ajuste a altura conforme necessário para dispositivos móveis */
+    width: 100%;
   }
 }
