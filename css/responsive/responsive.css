@@ -287,7 +287,7 @@
 		line-height: 40px;
 		width:100%;
 		cursor: pointer;
-		color:#00c5dc;
+		color:#12d800;
 		text-align: right;
 		padding-right: 15px;
 		font-size: 20px;
@@ -305,21 +305,21 @@
 	  border-bottom: 1px solid #e9e9e9;
 	}
 	header .navbar-default .navbar-toggle .icon-bar {
-		background-color: #00c5dc;
+		background-color: #12d800;
 		-webkit-transition: all 0.3s ease-in-out;
 		-o-transition: all 0.3s ease-in-out;
 		transition: all 0.3s ease-in-out;
 	}
 	header .navbar-default .navbar-toggle {
 		border-radius: 0;
-		border:1px solid #00c5dc;
+		border:1px solid #12d800;
 		-webkit-transition: all 0.3s ease-in-out;
 		-o-transition: all 0.3s ease-in-out;
 		transition: all 0.3s ease-in-out;
 	}
 	header .navbar-default .navbar-toggle:hover,
 	header .navbar-default .navbar-toggle:focus {
-		background-color: #00c5dc;
+		background-color: #12d800;
 	}
 	header .navbar-default .navbar-toggle:hover .icon-bar,
 	header .navbar-default .navbar-toggle:focus .icon-bar {
@@ -514,3 +514,161 @@
 		display: none;
 	}
 }
+/* CONFIGURAÇÃO PARA O MOBILE */
+video {
+	width: 100%;
+	max-width: 100%;
+	height: auto;
+  }
+  .link h3, .link h4 {
+	margin: 0;
+  }
+  .link {
+	max-width: 100%;
+	margin: 0;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  /* Estilos para a seção main_footer */
+  .main_footer {
+	background-color: #333;
+	color: #fff;
+	padding: 30px 0;
+  }
+  
+  .main_footer img {
+	max-width: 100%;
+	height: auto;
+  }
+  
+  .footer_logo p {
+	margin-top: 15px;
+  }
+  
+  .footer_logo ul {
+	list-style: none;
+	padding: 0;
+	margin: 15px 0 0 0;
+  }
+  
+  .footer_logo ul li {
+	display: inline-block;
+	margin-right: 10px;
+  }
+  
+  /* Estilos para a seção bottom_footer */
+  .bottom_footer {
+	background-color: #222;
+	color: #fff;
+	padding: 10px 0;
+	text-align: center;
+  }
+  
+  /* Estilos específicos para dispositivos móveis usando media query */
+  @media screen and (max-width: 768px) {
+	.main_footer {
+	  text-align: center;
+	}
+  
+	.footer_logo {
+	  margin-bottom: 20px;
+	}
+  
+	.bottom_footer {
+	  text-align: center;
+	}
+  }
+  /* Estilos para a seção header */
+  header {
+	background-color: transparent;
+	color: #fff;
+	padding: 10px 0;
+  }
+  
+  .container {
+	max-width: 1200px;
+	margin: 0 auto;
+	overflow: hidden;
+  }
+  
+  .logo {
+	float: left;
+  }
+  
+  .logo img {
+	max-width: 100%;
+	height: auto;
+  }
+  
+  .navbar {
+	float: right;
+	margin-top: 15px;
+  }
+  
+  .navbar-toggle {
+	background-color: #fff;
+  }
+  
+  .navbar-collapse {
+	float: left;
+  }
+  
+  .navbar-nav {
+	float: left;
+	margin-top: 0;
+  }
+  
+  .navbar-nav > li {
+	float: left;
+  }
+  
+  .navbar-nav > li > a {
+	color: #fff;
+	padding: 15px 20px;
+  }
+  
+  .navbar-nav > li:hover > a {
+	background-color: transparent;
+  }
+  
+  .sub_menu {
+	background-color: transparent;
+	display: none;
+	position: absolute;
+	top: 100%;
+	left: 0;
+	width: 200px;
+  }
+  
+  .dropdown-holder:hover .sub_menu {
+	display: block;
+  }
+  
+  /* Estilos específicos para dispositivos móveis usando media query */
+  @media screen and (max-width: 768px) {
+	.navbar-toggle,
+	.navbar-collapse {
+	  float: none;
+	  display: block;
+	  width: 100%;
+	  text-align: center;
+	}
+  
+	.navbar-nav, .navbar-nav > li {
+	  float: none;
+	  display: block;
+	  width: 100%;
+	  text-align: center;
+	}
+  
+	.sub_menu {
+	  position: static;
+	  width: 100%;
+	  display: none;
+	}
+  
+	.dropdown-holder:hover .sub_menu {
+	  display: block;
+	}
+  }
