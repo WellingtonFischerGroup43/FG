@@ -2695,3 +2695,23 @@ video {
     height: 300px; /* Ajuste a altura conforme necessário para dispositivos móveis */
   }
 }
+/* Estilos para a localização no modo desktop */
+.google_map {
+  text-align: center;
+}
+
+.google-map {
+  height: 375px;
+  width: 100%;
+}
+
+/* Media query para dispositivos com largura máxima de 768 pixels (modo mobile) */
+@media screen and (max-width: 768px) {
+  .google_map {
+    text-align: center;
+  }
+
+  .google-map {
+    height: 250px; /* Ajuste a altura conforme necessário para dispositivos móveis */
+  }
+}
