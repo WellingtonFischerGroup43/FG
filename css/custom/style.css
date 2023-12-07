@@ -106,7 +106,7 @@ This files contents are outlined below>>>>>
 }
 #loader {
     display: block;
-    background : url(../../images/FISCHER_\ SIMBOLO_PRETO.png) no-repeat center;
+    background : url(/images/logo/logofischer.png) no-repeat center;
     position: relative;
     left: 50%;
     top: 50%;
