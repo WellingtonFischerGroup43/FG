@@ -110,9 +110,9 @@ This files contents are outlined below>>>>>
     position: relative;
     left: 50%;
     top: 50%;
-    width: 200px;
-    height: 200px;
-    margin: -50px 0 0 -50px;
+    width: 100px;
+    height: 100px;
+    margin: -20px 0 0 -20px;
     overflow: hidden;
 }
 
@@ -2677,5 +2677,21 @@ video {
 
   .bottom_footer {
     text-align: center;
+  }
+}
+/* Estilos para a localização no modo desktop */
+.location {
+  text-align: center;
+}
+
+.google-map {
+  height: 375px;
+  width: 100%;
+}
+
+/* Media query para dispositivos com largura máxima de 768 pixels (modo mobile) */
+@media screen and (max-width: 768px) {
+  .google-map {
+    height: 300px; /* Ajuste a altura conforme necessário para dispositivos móveis */
   }
 }
