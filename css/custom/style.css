@@ -85,13 +85,13 @@ This files contents are outlined below>>>>>
 ===================== Preloader===================
                                                   */
 /* Estilo para dispositivos móveis */
-@media screen and (max-width: 600px) {
-  /* Adicione estilos específicos para telas com largura máxima de 600 pixels */
-  body {
-      font-size: 16px; /* Ajuste o tamanho da fonte para dispositivos móveis conforme necessário */
+@media only screen and (max-width: 768px) {
+  [class*="col-"] {
+      width: 100%;
   }
-
-  /* Adicione mais estilos conforme necessário */
+  .container{
+      padding: 15px;
+  }
 }
 
 #loader-wrapper {
@@ -725,15 +725,15 @@ header .search_option form button {
 .dashboard .panel-group .panel-heading .icon .ficon:before {
   line-height: 50px;
   text-align: center;
-  color:#00c5dc;
+  color:#05727e;
   font-size: 22px;
   -webkit-transition: all 0.3s ease-in-out;
   -o-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 .dashboard .panel-group .panel-heading.active-panel .icon {
-  background: #00c5dc;
-  border:1px solid #00c5dc;
+  background: rgb(18, 220, 0);
+  border:1px solid rgb(18, 220, 0);
 }
 .dashboard .panel-group .panel-heading.active-panel .icon .ficon:before {
   color:#fff;
@@ -847,11 +847,11 @@ header .search_option form button {
   color:#fff;
 }
 .pricing_table .price_area .price1 {
-  background: #08cee5; /* For browsers that do not support gradients */
-  background: -webkit-radial-gradient(circle, #08cee5 52%, #32dbef 52%,#32dbef 62%, #57e6f7 62%, #57e6f7 100%); /* Safari */
-  background: -o-radial-gradient(circle, #08cee5 52%, #32dbef 52%,#32dbef 62%, #57e6f7 62%, #57e6f7 100%); /* Opera 11.6 to 12.0 */
-  background: -moz-radial-gradient(circle, #08cee5 52%, #32dbef 52%,#32dbef 62%, #57e6f7 62%, #57e6f7 100%); /* Firefox 3.6 to 15 */
-  background: radial-gradient(circle, #08cee5 52%, #32dbef 52%,#32dbef 62%, #57e6f7 62%, #57e6f7 100%); /* Standard syntax */
+  background: #47e508 52%; /* For browsers that do not support gradients */
+  background: -webkit-radial-gradient(circle, #47e508 52%, #47e508 52%,#47e508 52%, #47e508 52%, #47e508 52%); /* Safari */
+  background: -o-radial-gradient(circle, #47e508 52%, #47e508 52%,#47e508 52%, #47e508 52%, #47e508 52%); /* Opera 11.6 to 12.0 */
+  background: -moz-radial-gradient(circle, #47e508 52%, #47e508 52%,#47e508 52%, #47e508 52%, #47e508 52%); /* Firefox 3.6 to 15 */
+  background: radial-gradient(circle, #47e508 52%, #47e508 52%,#47e508 52%, #47e508 52%, #47e508 52%); /* Standard syntax */
 }
 .pricing_table .price_area .price2 {
   background: #cd5bee; /* For browsers that do not support gradients */
@@ -1006,8 +1006,8 @@ header .search_option form button {
 }
 .testimonial .owl-theme .owl-dots .owl-dot.active span,
 .testimonial .owl-theme .owl-dots .owl-dot:hover span {
-  background: #08cee5;
-  border:1px solid #08cee5;
+  background: rgb(45, 229, 8);
+  border:1px solid #0fe508;
 }
 
 /*=============================== Latest News =======================*/
@@ -1396,7 +1396,7 @@ footer .bottom_footer p a {
     width: 130px;
     line-height: 42px;
     border-radius: 5px;
-    border: 2px solid #08cee5;
+    border: 2px solid #34e508;
     text-transform: uppercase;
     margin-top: 32px;
     margin-bottom: 10px;
@@ -2470,7 +2470,7 @@ span{
   width:5px;
   height: 5px;
   border-radius: 50%;
-  background: #00cbd8;
+  background: #12d800;
   position: absolute;
   top:13px;
   left: 0;
@@ -2600,7 +2600,7 @@ span{
 }
 .blog_details .leave_reply .single_input input:focus,
 .blog_details .leave_reply .single_input textarea:focus {
-  border: 1px solid #00cbd8;
+  border: 1px solid #12d800;
 }
 .single_blog_page .blog_post_wrapper .blog_single_post_wrapper {
   margin-bottom: 0;

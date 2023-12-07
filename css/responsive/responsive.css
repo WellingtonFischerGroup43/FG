@@ -5,13 +5,13 @@
 	}
 }
 /* Estilo para dispositivos móveis */
-@media screen and (max-width: 600px) {
-    /* Adicione estilos específicos para telas com largura máxima de 600 pixels */
-    body {
-        font-size: 16px; /* Ajuste o tamanho da fonte para dispositivos móveis conforme necessário */
+@media only screen and (max-width: 768px) {
+    [class*="col-"] {
+        width: 100%;
     }
-
-    /* Adicione mais estilos conforme necessário */
+    .container{
+        padding: 15px;
+    }
 }
 
 
