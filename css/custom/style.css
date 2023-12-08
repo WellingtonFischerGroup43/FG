@@ -2787,5 +2787,33 @@ video {
       padding-bottom: 75%; /* Ajuste a proporção conforme necessário para telas menores */
     }
   }
+/* Estilos gerais */
+
+#banner {
+  text-align: center;
+}
+
+#banner h1 {
+  font-size: 30px;
+  margin: 20px;
+}
+
+#banner .learn_more,
+#banner .contact_now {
+  margin: 20px;
+}
+
+/* Media queries para dispositivos com largura menor ou igual a 767px (pode ajustar conforme necessário) */
+@media only screen and (max-width: 767px) {
+  #banner h1 {
+      font-size: 20px;
+      margin: 10px;
+  }
+
+  #banner .learn_more,
+  #banner .contact_now {
+      margin: 10px;
+  }
+}
 
 
