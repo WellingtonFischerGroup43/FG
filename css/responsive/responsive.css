@@ -696,73 +696,15 @@
       padding-bottom: 75%; /* Ajuste a proporção conforme necessário para telas menores */
     }
   }
-/* Aplicação do CSS CABEÇALHO */
-/* Adicione este CSS em um arquivo externo, por exemplo, styles.css */
 
-/* Estilos para Dispositivos Móveis */
-@media only screen and (max-width: 767px) {
-	header {
-		padding: 15px 0; /* Adapte o preenchimento conforme necessário */
+/* Estilo para tornar a galeria mais amigável em dispositivos móveis */
+@media screen and (max-width: 767px) {
+	.gallery_item_wrapper .single_item_wrapper {
+	  margin-bottom: 20px; /* Ajuste o espaçamento conforme necessário */
 	}
   
-	.container {
-		width: 100%;
-	}
-  
-	.logo {
-		width: 50%; /* Ajuste o tamanho do logotipo conforme necessário */
-		float: left;
-	}
-  
-	.navbar {
-		float: none;
-		width: 100%;
-		margin: 0;
-	}
-  
-	.navbar-header {
-		float: none;
-	}
-  
-	.navbar-toggle {
-		display: block;
-		float: right;
-	}
-  
-	.collapse.navbar-collapse {
-		clear: both;
-		max-height: none;
-		display: block;
-	}
-  
-	.navbar-nav {
-		float: none;
-		margin: 0;
-		text-align: center;
-	}
-  
-	.navbar-nav > li {
-		float: none;
-		display: inline-block;
-	}
-  
-	.dropdown-holder {
-		position: static;
-	}
-  
-	.sub_menu {
-		display: none;
-		position: static;
-		text-align: left;
-		width: 100%;
-	}
-  
-	.navbar-nav > li:hover .sub_menu {
-		display: block;
-	}
-  
-	.clear_fix {
-		clear: both;
+	.gallery_page .container {
+	  padding: 30px 15px; /* Ajuste o espaçamento conforme necessário */
 	}
   }
   

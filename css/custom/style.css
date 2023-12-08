@@ -2787,74 +2787,175 @@ video {
       padding-bottom: 75%; /* Ajuste a proporção conforme necessário para telas menores */
     }
   }
-/* Aplicação do CSS CABEÇALHO */
-/* Adicione este CSS em um arquivo externo, por exemplo, styles.css */
+/* style.css */
 
-/* Estilos para Dispositivos Móveis */
-@media only screen and (max-width: 767px) {
-  header {
-      padding: 15px 0; /* Adapte o preenchimento conforme necessário */
-  }
+/* Estilos gerais */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
 
-  .container {
-      width: 100%;
-  }
+/* Estilos para o cabeçalho */
+header {
+    background-color: transparent;
+    color: #fff;
+    padding: 10px 0;
+}
 
-  .logo {
-      width: 50%; /* Ajuste o tamanho do logotipo conforme necessário */
-      float: left;
-  }
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
 
+nav {
+    background-color: transparent;
+}
+
+nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/* Estilos para o conteúdo principal */
+.inner_banner {
+    background: url('images/banner.jpg') center center no-repeat;
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.inner_banner h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.gallery_page {
+    padding: 50px 0;
+}
+
+.gallery_item_wrapper {
+    margin-top: 30px;
+}
+
+.gallery_item_wrapper img {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    transition: transform 0.3s;
+}
+
+.gallery_item_wrapper img:hover {
+    transform: scale(1.1);
+}
+
+/* Estilos para o rodapé */
+footer {
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Botão de rolar para o topo */
+.scroll-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+}
+
+/* Estilos para dispositivos móveis */
+@media screen and (max-width: 767px) {
+    nav {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    nav ul {
+        display: block;
+        margin-top: 10px;
+    }
+
+    nav li {
+        display: block;
+        margin: 0;
+        margin-bottom: 10px;
+    }
+
+    .scroll-top {
+        right: 10px;
+    }
+}
+ /* INÍCIO DO CSS MOBILE DA GALERIA */
+ @media only screen and (max-width: 767px) {
+  /* Adaptação do menu de navegação */
   .navbar {
-      float: none;
-      width: 100%;
-      margin: 0;
-  }
-
-  .navbar-header {
-      float: none;
+      margin-bottom: 20px;
   }
 
   .navbar-toggle {
-      display: block;
-      float: right;
+      margin-right: 15px;
   }
 
-  .collapse.navbar-collapse {
-      clear: both;
-      max-height: none;
-      display: block;
+  .navbar-collapse {
+      margin-top: 15px;
   }
 
-  .navbar-nav {
-      float: none;
-      margin: 0;
-      text-align: center;
+  /* Estilos para as imagens da galeria */
+  .gallery_item_wrapper {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
   }
 
-  .navbar-nav > li {
-      float: none;
-      display: inline-block;
+  .gallery_item_wrapper .single_item_wrapper {
+      width: calc(50% - 10px);
+      margin-bottom: 20px;
   }
 
-  .dropdown-holder {
-      position: static;
-  }
-
-  .sub_menu {
-      display: none;
-      position: static;
-      text-align: left;
+  .single_item_wrapper img {
       width: 100%;
-  }
-
-  .navbar-nav > li:hover .sub_menu {
+      height: auto;
       display: block;
   }
 
-  .clear_fix {
-      clear: both;
+  .fancybox {
+      width: 100% !important;
+      max-width: 100% !important;
+      height: auto !important;
   }
 }
+/* Adicione este código CSS para melhorar a responsividade da galeria */
+
+/* Estilo para tornar a galeria mais amigável em dispositivos móveis */
+@media screen and (max-width: 767px) {
+  .gallery_item_wrapper .single_item_wrapper {
+    margin-bottom: 20px; /* Ajuste o espaçamento conforme necessário */
+  }
+
+  .gallery_page .container {
+    padding: 30px 15px; /* Ajuste o espaçamento conforme necessário */
+  }
+}
+
 
 
