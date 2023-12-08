@@ -2905,57 +2905,6 @@ footer {
         right: 10px;
     }
 }
- /* INÍCIO DO CSS MOBILE DA GALERIA */
- @media only screen and (max-width: 767px) {
-  /* Adaptação do menu de navegação */
-  .navbar {
-      margin-bottom: 20px;
-  }
-
-  .navbar-toggle {
-      margin-right: 15px;
-  }
-
-  .navbar-collapse {
-      margin-top: 15px;
-  }
-
-  /* Estilos para as imagens da galeria */
-  .gallery_item_wrapper {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: space-between;
-  }
-
-  .gallery_item_wrapper .single_item_wrapper {
-      width: calc(50% - 10px);
-      margin-bottom: 20px;
-  }
-
-  .single_item_wrapper img {
-      width: 100%;
-      height: auto;
-      display: block;
-  }
-
-  .fancybox {
-      width: 100% !important;
-      max-width: 100% !important;
-      height: auto !important;
-  }
-}
-/* Adicione este código CSS para melhorar a responsividade da galeria */
-
-/* Estilo para tornar a galeria mais amigável em dispositivos móveis */
-@media screen and (max-width: 767px) {
-  .gallery_item_wrapper .single_item_wrapper {
-    margin-bottom: 20px; /* Ajuste o espaçamento conforme necessário */
-  }
-
-  .gallery_page .container {
-    padding: 30px 15px; /* Ajuste o espaçamento conforme necessário */
-  }
-}
-
+ 
 
 
