@@ -707,9 +707,15 @@
 /* Media query para telas menores (ajuste conforme necessário) */
 @media only screen and (max-width: 767px) {
     .tp-caption {
-        text-align: center; /* Centralizar o texto em telas menores */
-        font-size: 18px; /* Tamanho da fonte para telas menores */
-        /* Adicione mais estilos conforme necessário para telas menores */
+        position: relative !important;
+        display: block !important;
+        text-align: center !important;
+        margin: 0 auto !important;
+        left: auto !important;
+        right: auto !important;
+        transform: none !important;
+        max-width: 100% !important;
+        width: 100% !important;
     }
 }
 

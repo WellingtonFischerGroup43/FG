@@ -2921,6 +2921,20 @@ footer {
       /* Adicione mais estilos conforme necessário para telas menores */
   }
 }
+/* Estilos específicos para dispositivos móveis */
+@media only screen and (max-width: 767px) {
+  .tp-caption {
+      position: relative !important;
+      display: block !important;
+      text-align: center !important;
+      margin: 0 auto !important;
+      left: auto !important;
+      right: auto !important;
+      transform: none !important;
+      max-width: 100% !important;
+      width: 100% !important;
+  }
+}
 
 
 
