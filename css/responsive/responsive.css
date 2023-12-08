@@ -616,4 +616,15 @@ video {
 	  width: 100%;
 	}
   }
+  /* Estilos específicos para dispositivos móveis */
+@media screen and (max-width: 767px) {
+	#banner {
+	  /* Adicione os estilos desejados para dispositivos móveis aqui */
+	  /* Por exemplo: */
+	  padding: 20px; /* Adicione preenchimento de 20 pixels */
+	  background-color: #f0f0f0; /* Altere a cor de fundo para cinza claro */
+	  /* Adicione mais estilos conforme necessário */
+	}
+  }
+  
   
