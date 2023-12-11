@@ -696,15 +696,7 @@
       padding-bottom: 75%; /* Ajuste a proporção conforme necessário para telas menores */
     }
   }
-/* Estilos padrão para a tag tp-caption */
-.tp-caption {
-    position: absolute;
-    font-size: 24px; /* Tamanho da fonte padrão */
-    color: #fff; /* Cor do texto padrão */
-    /* Adicione mais estilos conforme necessário */
-}
-
-/* Media query para telas menores (ajuste conforme necessário) */
+/* Estilos específicos para dispositivos móveis */
 @media only screen and (max-width: 767px) {
     .tp-caption {
         position: relative !important;
@@ -718,5 +710,6 @@
         width: 100% !important;
     }
 }
+
 
  
