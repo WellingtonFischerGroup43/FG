@@ -223,7 +223,7 @@
 /*(max-width: 991px)*/
 
 
-@media (max-width: 500%) {
+@media (max-width: 548px) {
 	header .container {
 		padding-left: 0;
 		padding-right: 0;
