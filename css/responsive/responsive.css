@@ -2,6 +2,7 @@
 	.container {
 		padding-left: 0 !important;
 		padding-right: 0 !important;
+		min-width: none;
 	}
 }
 /* Estilo para dispositivos móveis */
@@ -222,10 +223,10 @@
 /*(max-width: 991px)*/
 
 
-@media (max-width: 547px) {
+@media (max-width: 546px) {
 	header .container {
-		padding-left: -20%;
-		padding-right: -20%;
+		padding-left: 0;
+		padding-right: 0;
 	}
 	header {
 		position:none;
