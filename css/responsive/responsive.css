@@ -525,10 +525,11 @@
 	align-items: center;
   }
   /* CONFIGURAÇÃO PARA O MOBILE */
-  video {
+  iframe {
 	width: 100%;
 	max-width: 100%;
 	height: auto;
+	padding-top: auto;
   }
   .link h3, .link h4 {
 	margin: 0;

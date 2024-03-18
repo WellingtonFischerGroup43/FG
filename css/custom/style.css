@@ -1642,12 +1642,17 @@ hr{
     background-color: rgb(33, 194, 18); /* Define a cor da linha (preto neste caso) */
     border: none; /* Remove a borda padrão da linha */
 }
-video{
+iframe{
   display: flex;
   justify-content: flex-end;
   align-items: center;
   flex-wrap: wrap;
   flex-direction: column;
+  padding: auto;
+  padding-top: 50pxpx;
+  max-width: 700px;
+  width: auto;
+  height: auto;
 }
 span{
   color: #15b846;
@@ -2614,15 +2619,15 @@ span{
   align-items: center;
 }
 /* CONFIGURAÇÃO PARA O MOBILE */
-video {
+.link iframe{
   width: 100%;
   max-width: 100%;
-  height: auto;
+  height: 500px;
 }
 .link h3, .link h4 {
   margin: 0;
 }
-.link {
+.link iframe {
   max-width: 100%;
   margin: 0;
   padding: 20px;
