@@ -2679,7 +2679,7 @@ span{
     padding-bottom: 68.25%; /* Proporção 16:9 para manter a relação de aspecto do iframe */
     height: 0;
     overflow: hidden;
-    width: 640px;
+    width: 500px;
   }
 
   .google-map-contato iframe {
