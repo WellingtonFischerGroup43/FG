@@ -2609,10 +2609,6 @@ span{
 .single_blog_page .blog_post_wrapper .blog_single_post_wrapper {
   margin-bottom: 0;
 }
-.location{
-  text-align: center;
-  align-items: center;
-}
 .link{
   align-content: center;
   text-align: center;
@@ -2622,7 +2618,7 @@ span{
 .link iframe{
   width: 100%;
   max-width: 100%;
-  height: 500px;
+  height: 100%;
 }
 .link h3, .link h4 {
   margin: 0;
@@ -2669,113 +2665,21 @@ span{
   text-align: center;
 }
 
-/* Estilos específicos para dispositivos móveis usando media query */
-@media screen and (max-width: 768px) {
-  .main_footer {
-    text-align: center;
-  }
-
-  .footer_logo {
-    margin-bottom: 20px;
-  }
-
-  .bottom_footer {
-    text-align: center;
-  }
-}
-/* Estilos para a localização no modo desktop */
-.location {
-  text-align: center;
-  padding: 20px;
-}
-.location h2 {
-  font-size: 24px;
-  margin-bottom: 10px;
-}
-.google-map {
-  width: 100%;
-  overflow: hidden;
-}
-.location p {
-  margin: 0;
-}
-
 /* Media query para dispositivos com largura máxima de 768 pixels (modo mobile) */
-@media screen and (max-width: 768px) {
-  .google-map {
-    height: 300px; /* Ajuste a altura conforme necessário para dispositivos móveis */
-  }
-}
-/* Estilos para a localização no modo desktop */
-.google_map {
-  text-align: center;
-}
 
-.google-map {
-  height: 375px;
-  width: 100%;
-}
 .google-map iframe {
-  width: 100%;
-  height: 300px; /* Ajuste conforme necessário */
+  width: 500px;
+  height: 450px; /* Ajuste conforme necessário */
   border: 1px solid #ddd; /* Adicione uma borda para separação visual */
 }
-/* Media query para dispositivos com largura máxima de 768 pixels (modo mobile) */
-@media screen and (max-width: 768px) {
-  .google_map {
-    text-align: center;
-  }
-  .google-map {
-    height: 250px; /* Ajuste a altura conforme necessário para dispositivos móveis */
-    width: 100%;
-  }
-}
-/* Seu arquivo CSS externo */
 
-/* Estilos específicos para dispositivos móveis */
-@media screen and (max-width: 767px) {
-  #banner {
-    /* Adicione os estilos desejados para dispositivos móveis aqui */
-    /* Por exemplo: */
-    padding: 20px; /* Adicione preenchimento de 20 pixels */
-    background-color: #f0f0f0; /* Altere a cor de fundo para cinza claro */
-    /* Adicione mais estilos conforme necessário */
-  }
-}
 /* Estilos para dispositivos móveis */
-@media only screen and (max-width: 767px) {
-  .location-complexo {
-    text-align: center;
-  }
-
-  .google-map {
-    width: 100%;
-  }
-
-  .google-map iframe {
-    width: 100%;
-    height: 300px; /* Ajuste conforme necessário */
-  }
-}
-  .location-complexo {
-    text-align: center;
-  }
-
-  .google-map {
-    width: 1150;
-    height: 450px;
-    margin: 0 auto; /* Centraliza horizontalmente */
-  }
-
-  .google-map iframe {
-    width: 100%;
-    height: 100%;
-  }
   .google-map-contato {
     position: relative;
-    padding-bottom: 56.25%; /* Proporção 16:9 para manter a relação de aspecto do iframe */
+    padding-bottom: 68.25%; /* Proporção 16:9 para manter a relação de aspecto do iframe */
     height: 0;
     overflow: hidden;
+    width: 640px;
   }
 
   .google-map-contato iframe {
@@ -2783,16 +2687,34 @@ span{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 500px;
   }
+/* ///////////////////////////////// */
+.location {
+  text-align: center;
+  margin-top: 50px; /* Ajuste conforme necessário */
+  position: relative;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
 
-  @media (max-width: 600px) {
-    /* Estilos específicos para telas menores que 600 pixels de largura */
-    .google-map-contato {
-      padding-bottom: 75%; /* Ajuste a proporção conforme necessário para telas menores */
-    }
-  }
-/* style.css */
+.google-terraco {
+  width: 100%; /* Garante que ocupe a largura total */
+  min-width: none;
+  max-width: 1600px; /* Limita a largura máxima do mapa */
+  height: 600px; /* Ajuste conforme necessário */
+  overflow: hidden; /* Esconde o overflow */
+  position: relative;
+}
+
+.google-terraco iframe {
+  width: 100%;
+  height: 70%;
+  min-width: none;
+  max-width: 1600px; /* Limita a largura máxima do mapa */
+}
+
 
 /* Estilos gerais */
 body {
@@ -2917,29 +2839,3 @@ footer {
   color: #fff; /* Cor do texto padrão */
   /* Adicione mais estilos conforme necessário */
 }
-
-/* Media query para telas menores (ajuste conforme necessário) */
-@media only screen and (max-width: 767px) {
-  .tp-caption {
-      text-align: center; /* Centralizar o texto em telas menores */
-      font-size: 18px; /* Tamanho da fonte para telas menores */
-      /* Adicione mais estilos conforme necessário para telas menores */
-  }
-}
-/* Estilos específicos para dispositivos móveis */
-@media only screen and (max-width: 767px) {
-  .tp-caption {
-      position: relative !important;
-      display: block !important;
-      text-align: center !important;
-      margin: 0 auto !important;
-      left: auto !important;
-      right: auto !important;
-      transform: none !important;
-      max-width: 100% !important;
-      width: 100% !important;
-  }
-}
-
-
-
