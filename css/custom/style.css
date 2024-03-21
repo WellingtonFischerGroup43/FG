@@ -85,7 +85,7 @@ This files contents are outlined below>>>>>
 ===================== Preloader===================
                                                   */
 /* Estilo para dispositivos móveis */
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
   [class*="col-"] {
       width: 100%;
   }
@@ -2676,10 +2676,10 @@ span{
 /* Estilos para dispositivos móveis */
   .google-map-contato {
     position: relative;
-    padding-bottom: 68.25%; /* Proporção 16:9 para manter a relação de aspecto do iframe */
+    padding-bottom: 85.25%; /* Proporção 16:9 para manter a relação de aspecto do iframe */
     height: 300px;
     overflow: hidden;
-    width: 400px;
+    width: 350px;
   }
 
   .google-map-contato iframe {
