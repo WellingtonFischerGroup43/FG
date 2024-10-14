@@ -756,11 +756,11 @@ header .search_option form button {
   color:#fff;
 }
 .case_study .overlay .row {
-  margin:75px -5px 0 -5px;
+  margin:75px -20px 0 -5px;
 }
 .case_study .overlay [class^='col-'] {
-  padding-left: 5px ;
-  padding-right: 5px;
+  padding-left: 10px ;
+  padding-right: 10px;
 }
 .case_study .single_study {
   margin-bottom: 40px;
@@ -1725,10 +1725,10 @@ span{
   opacity: 0;
   visibility: hidden;
   transform: scale(0.7);
-  -webkit-transform:scale(0.7);
-  -moz-transform:scale(0.7);
-  -ms-transform:scale(0.7);
-  -o-transform:scale(0.7);
+  -webkit-transform:scale(1.7);
+  -moz-transform:scale(1.7);
+  -ms-transform:scale(1.7);
+  -o-transform:scale(1.7);
   align-items: center;
   text-align: center;
   align-content: center;
@@ -2783,6 +2783,13 @@ nav a {
 }
 .inner_banner5 {
   background: url('/images/gallery/bannerfundogaleria.png') center center no-repeat;
+  background-size: cover;
+  color: #fff;
+  text-align: center;
+  padding: 100px 0;
+}
+.inner_banner6 {
+  background: url('/images/project/bannerauris.png') center center no-repeat;
   background-size: cover;
   color: #fff;
   text-align: center;
