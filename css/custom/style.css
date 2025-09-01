@@ -191,7 +191,7 @@ input,textarea {
   display: table;
   clear:both;
   content: '';
-}
+} 
 .p_color {
   color:#1e2324;
 }
@@ -1649,7 +1649,7 @@ iframe{
   flex-wrap: wrap;
   flex-direction: column;
   padding: auto;
-  padding-top: 50pxpx;
+  padding-top: 50px;
   max-width: 700px;
   width: auto;
   height: auto;
@@ -1721,7 +1721,7 @@ span{
   top:0;
   left:0;
   border-radius: 4px;
-  background:rgba(242,242,242,0.9);
+  background:rgba(0, 211, 11, 0.445);
   opacity: 0;
   visibility: hidden;
   transform: scale(0.7);
@@ -1734,7 +1734,7 @@ span{
   align-content: center;
 }
 .gallery_item_wrapper .single_item_wrapper:hover .opacity {
-  opacity: 1;
+  opacity: 10;
   visibility: visible;
   transform: scale(1);
   -webkit-transform:scale(1);
@@ -2677,9 +2677,9 @@ span{
   .google-map-contato {
     position: relative;
     padding-bottom: 85.25%; /* Proporção 16:9 para manter a relação de aspecto do iframe */
-    height: 300px;
+    height: 500px;
     overflow: hidden;
-    width: 350px;
+    width: 500px;
   }
 
   .google-map-contato iframe {
